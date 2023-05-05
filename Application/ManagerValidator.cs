@@ -7,13 +7,13 @@ using CredentialManagerDb.Repositories;
 namespace Application
 {
 
-	public class ManagerValidation
+	public class ManagerValidator
 	{
 		private readonly IAccountRepository _accountRepository;
 		private readonly AccountFactory _accountFactory;
 		private readonly SetUpChainPasswordValidation _setUpChainPasswordValidation;
 
-        public ManagerValidation(IAccountRepository accountRepository, AccountFactory accountFactory, SetUpChainPasswordValidation setUpChainPasswordValidation)
+        public ManagerValidator(IAccountRepository accountRepository, AccountFactory accountFactory, SetUpChainPasswordValidation setUpChainPasswordValidation)
         {
             _accountRepository = accountRepository;
             _accountFactory = accountFactory;
