@@ -7,14 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="FactoryMethod\" />
-    <None Remove="ChainOfResponsabilities\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FactoryMethod\" />
-    <Folder Include="ChainOfResponsabilities\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\CredentialManager\CredentialManager.csproj" />
     <ProjectReference Include="..\CredentialManagerDb\CredentialManagerDb.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 </Project>

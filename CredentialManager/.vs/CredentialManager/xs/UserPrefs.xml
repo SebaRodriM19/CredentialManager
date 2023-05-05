@@ -1,23 +1,45 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.CredentialManagerDb FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CredentialManager FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Application FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../CredentialManagerDb/Repositories/AccountRepository.cs">
     <Files>
-      <File FileName="Class1.cs" Line="14" Column="1" />
+      <File FileName="Class1.cs" Line="18" Column="46" />
+      <File FileName="ChainOfResponsabilities/PasswordValidation.cs" Line="17" Column="32" />
+      <File FileName="ChainOfResponsabilities/LengthPasswordChecker.cs" Line="10" Column="9" />
+      <File FileName="ChainOfResponsabilities/EmptyPasswordChecker.cs" Line="15" Column="41" />
+      <File FileName="ChainOfResponsabilities/LowercasePasswordChecker.cs" Line="13" Column="40" />
+      <File FileName="ChainOfResponsabilities/NumberPasswordChecker.cs" Line="9" Column="9" />
+      <File FileName="ChainOfResponsabilities/SpecialCharacterPasswordChecker.cs" Line="45" Column="14" />
+      <File FileName="ChainOfResponsabilities/SetUpChainPasswordChecker.cs" Line="24" Column="86" />
+      <File FileName="FactoryMethod/IUser.cs" Line="7" Column="15" />
+      <File FileName="FactoryMethod/IAccount.cs" Line="7" Column="36" />
+      <File FileName="FactoryMethod/Account.cs" Line="11" Column="26" />
+      <File FileName="FactoryMethod/AccountFactory.cs" Line="7" Column="4" />
+      <File FileName="../CredentialManagerDb/Class1.cs" Line="10" Column="1" />
+      <File FileName="../CredentialManagerDb/Repositories/AccountRepository.cs" Line="46" Column="51" />
+      <File FileName="../CredentialManagerDb/Repositories/IAccountRepository.cs" Line="7" Column="31" />
+      <File FileName="../Application/ManagerValidation.cs" Line="9" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CredentialManager" expanded="True">
-            <Node name="CredentialManager" expanded="True" />
+            <Node name="CredentialManager" expanded="True">
+              <Node name="FactoryMethod" expanded="True" />
+            </Node>
+            <Node name="CredentialManagerDb" expanded="True" selected="True">
+              <Node name="Repositories" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CredentialManager FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

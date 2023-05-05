@@ -12,9 +12,12 @@ namespace CredentialManager.FactoryMethod
             _dateOfCreation = DateTime.Now;
         }
 
+        public User GetUser() => _user;
+
         public DateTime DateOfCreation() => _dateOfCreation;
 
         public string GetAccount() => $"User: {_user.GetUsername()} Date of creation: {DateOfCreation()}";
+        
     }
 }
 
