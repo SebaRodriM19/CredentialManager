@@ -1,13 +1,18 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using CredentialManager.FactoryMethod;
+using Microsoft.Extensions.Configuration;
 
 namespace CredentialManagerDb.Repositories
 {
 	public class AccountRepository : IAccountRepository
 	{
-		public AccountRepository()
+        private readonly string? _connectionString;
+
+		public AccountRepository(IConfiguration configuration)
 		{
+            _connectionString = configuration["ConnectionStrings"];
 		}
 
         public List<AccountModel> GetListAccount()
@@ -16,7 +21,7 @@ namespace CredentialManagerDb.Repositories
             var listAccount = new List<AccountModel>();
             try
             {
-                using var connection = new SqlConnection(ConnectionString);
+                using var connection = new SqlConnection(_connectionString);
                 using var commandConnection = new SqlCommand(query, connection);
                 connection.Open();
                 using var reader = commandConnection.ExecuteReader(CommandBehavior.CloseConnection | CommandBehavior.SingleRow);
@@ -25,10 +30,10 @@ namespace CredentialManagerDb.Repositories
                 {
                     var account = new AccountModel()
                     {
-                        Id = reader.GetInt32("id_account"),
+                        Id = reader.GetInt32("idAccount"),
                         Username = reader.GetString("username"),
-                        Password = reader.GetString("password"),
-                        DateOfCreation = reader.GetDateTime(reader.GetTimeSpan("date_of_creation"))
+                        Password = reader.GetString("pwd"),
+                        DateOfCreation = reader.GetDateTime(reader.GetOrdinal("date_of_creation"))
                     };
 
                     listAccount.Add(account);
@@ -58,7 +63,7 @@ namespace CredentialManagerDb.Repositories
 
             try
             {
-                using var connection = new SqlConnection(ConnectionString);
+                using var connection = new SqlConnection(_connectionString);
                 using var commmand = new SqlCommand(query, connection);
                 connection.Open();
                 var res = valuesToAddInDb.Select(x => new SqlParameter(x.Key, x.Value)).ToArray();

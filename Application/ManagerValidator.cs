@@ -32,7 +32,7 @@ namespace Application
             }
             else
             {
-                throw new AccountAlreadyException("Username already exists.");
+                throw new AccountAlreadyExistsException("Username already exists.");
             }
 
             

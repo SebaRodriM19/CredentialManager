@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9yMAx922V1lemIGBThpNBtT0opxvFFHjnYX7CfYTewC/TUB0SjA/YpmVzU4n2tDwpeatPFWGZOX+V5hkkbBQ0A==",
+  "dgSpecHash": "R+U279dOSwHmjt+pHnDkii1ZC/cOF89Kl7f2waUcGrP7Av/CPR4jhdxs37+VKN88B1caAbu0oSy0e9zYHuObpg==",
   "success": true,
   "projectFilePath": "/Users/SebastianRM/Desktop/CorsoC#_.NET_GruppoEuris/DotNet_AdvancedConcepts/GestoreCredenziali/CredentialManagerDb/CredentialManagerDb.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,11 @@
     "/Users/SebastianRM/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/SebastianRM/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/Users/SebastianRM/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
+    "/Users/SebastianRM/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/Users/SebastianRM/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/Users/SebastianRM/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/SebastianRM/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/SebastianRM/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/SebastianRM/.nuget/packages/microsoft.identity.client/4.47.2/microsoft.identity.client.4.47.2.nupkg.sha512",
     "/Users/SebastianRM/.nuget/packages/microsoft.identity.client.extensions.msal/2.19.3/microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
     "/Users/SebastianRM/.nuget/packages/microsoft.identitymodel.abstractions/6.24.0/microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",

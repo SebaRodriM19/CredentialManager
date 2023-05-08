@@ -1,4 +1,5 @@
 ﻿using System;
+using CredentialManager.FactoryMethod;
 
 namespace CredentialManagerDb.Repositories
 {
