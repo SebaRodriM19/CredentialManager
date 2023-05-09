@@ -1,4 +1,4 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{884E0D90-E426-4DF2-91C6-EB5159EF5AB8}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="../Application/ManagerValidator.cs">
     <Files>
       <File FileName="Class1.cs" Line="18" Column="46" />
@@ -33,12 +33,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CredentialManager FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CredentialManagerCSV FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CredentialManagerInteraction PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.CredentialManagerDb FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Application FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
